@@ -1,0 +1,9 @@
+{{#if App.Auth.signedIn}}
+  Signed In as {{App.Auth.user.email}}
+{{else}}
+  {{render sign_in}}
+{{/if}}
+<br>
+
+<h1>App</h1>
+{{outlet}}
