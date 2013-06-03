@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     "js/controllers/sign_in.coffee",
     "js/ember_auth.js",
     "js/models/user.coffee",
-    "js/templates/application.handlebars",
+    "js/templates/_user_status.handlebars",
     "js/templates/sign_in.handlebars",
     "lib/ember_auth_middleman.rb",
     "spec/ember_auth_middleman_spec.rb",
