@@ -10,4 +10,4 @@ module EmberAuthMiddleman
   end
 end
 
-::Middleman::Extensions.register :ember_auth, EmberAuth
+::Middleman::Extensions.register :ember_auth, EmberAuthMiddleman
