@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "ember_auth_middleman"
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Harris"]
-  s.date = "2013-06-03"
+  s.date = "2013-06-10"
   s.description = "ember_auth_middleman"
   s.email = "mharris717@gmail.com"
   s.extra_rdoc_files = [
@@ -27,11 +27,13 @@ Gem::Specification.new do |s|
     "VERSION",
     "ember_auth_middleman.gemspec",
     "js/auth.coffee",
+    "js/auth_include.js",
     "js/controllers/sign_in.coffee",
     "js/ember_auth.js",
     "js/models/user.coffee",
     "js/templates/_user_status.handlebars",
     "js/templates/sign_in.handlebars",
+    "js/templates/sign_out.handlebars",
     "lib/ember_auth_middleman.rb",
     "spec/ember_auth_middleman_spec.rb",
     "spec/spec_helper.rb"
