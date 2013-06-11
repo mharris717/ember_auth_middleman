@@ -2,5 +2,5 @@
 {{#if App.Auth.user.providers.fatsecret}}
   
 {{else}}
-  <a href="http://localhost:5601/users/auth/fatsecret">Connect FatSecret</a>
+  <a {{bindAttr href="fatsecretUrl"}}>Connect FatSecret</a>
 {{/if}}

@@ -5,5 +5,5 @@
     <button {{action "login"}}>Login</button>
   {{/if}}
 
-  <a href="http://localhost:5601/users/auth/dropbox">Login with Dropbox</a>
+  <a {{bindAttr href="dropboxUrl"}}>Login with Dropbox</a>
 </form>

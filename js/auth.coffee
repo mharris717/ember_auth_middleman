@@ -2,7 +2,6 @@ App.Auth = Em.Auth.create
   signInEndPoint: '/users/sign_in.json'
   signOutEndPoint: '/logout'
   userModel: 'App.User'
-  baseUrl: "http://localhost:5601"
 
   tokenKey: "auth_token"
   tokenIdKey: "user_id"

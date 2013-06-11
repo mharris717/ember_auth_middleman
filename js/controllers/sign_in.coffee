@@ -11,6 +11,8 @@ App.SignInController = Em.ObjectController.extend
         "email": @$email
         "password": @$password
 
+  dropboxUrl: (-> "#{ezqServerUrl()}/users/auth/dropbox").property()
+
 App.SignOutController = Em.ObjectController.extend
   init: ->
     @_super()
@@ -26,5 +28,5 @@ App.SignOutController = Em.ObjectController.extend
     console.debug "logout"
     App.Auth.get("_session").clear()
     App.Auth.trigger "signOutSuccess"
-    #$.get("http://localhost:5601/logout", {email: App.Auth.$user.$email}).then (data) ->
-    #  console.debug "logged out"
+
+  fatsecretUrl: (-> "#{ezqServerUrl()}/users/auth/fatsecret").property()
